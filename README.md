@@ -1,6 +1,6 @@
 # EaglerCraft Client Selector
 
-A website that hosts and provides many modified EaglerCraft Clients with a clean UI ,thanks to Robert Dixon for his HTML Link Page Template (https://github.com/robsd/html-link-page/tree/main)
+A website that hosts and provides many modified EaglerCraft Clients with a clean UI, thanks to Robert Dixon for his HTML Link Page Template (https://github.com/robsd/html-link-page/tree/main)
 
 Clients Included:
 
