@@ -6,14 +6,14 @@ Thanks to Robert Dixon for his HTML Link Page Template (https://github.com/robsd
 Clients Included
 
 * Pi Client
-OddFuture Client
-Nebula Client
-NitClient
-DragonX V2
-N0VA Client
-Kerosene Client
-Solar Client
-Precision Client
+* OddFuture Client
+* Nebula Client
+* NitClient
+* DragonX V2
+* N0VA Client
+* Kerosene Client
+* Solar Client
+* Precision Client
 
 Also thanks to TechGeekUnited for Archiving the client files (https://github.com/TechGeekUnited/TGU-Archive)
 
