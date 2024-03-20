@@ -5,7 +5,7 @@ Thanks to Robert Dixon for his HTML Link Page Template (https://github.com/robsd
 
 Clients Included
 
-Pi Client
+* Pi Client
 OddFuture Client
 Nebula Client
 NitClient
