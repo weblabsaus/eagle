@@ -3,7 +3,7 @@
 A website that hosts and provides many modified EaglerCraft Clients with a clean UI
 Thanks to Robert Dixon for his HTML Link Page Template (https://github.com/robsd/html-link-page/tree/main)
 
-Clients Included
+Clients Included:
 
 * Pi Client
 * OddFuture Client
