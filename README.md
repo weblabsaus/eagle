@@ -15,5 +15,6 @@ Clients Included:
 * Precision Client
 
 Also thanks to TechGeekUnited for Archiving the client files (https://github.com/TechGeekUnited/TGU-Archive)
+And EaglerCrackX Archive for the server list (https://eaglercrack.vercel.app/)
 
 I will most likely not update the clients themselfs unless the clients stop working
