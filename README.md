@@ -1,5 +1,6 @@
 # EaglerCraft Client Selector
 
+https://burnedpopcorn.github.io/Client_Select.html
 A website that hosts and provides many vanilla and modified EaglerCraft Clients with a clean UI, and a 1.8 server list
 
 Modified Clients Included:
@@ -29,3 +30,6 @@ Thanks to:
 * radmanplays for releasing EaglerForge Build v1.2.5 (https://github.com/eaglerforge/EaglerForge-builds/releases/tag/v1.2.5)
 
 I will most likely not update the clients themselfs unless the clients stop working
+
+Also, for EaglerForge specifically, the discord to find mods for it is here: https://discord.gg/zCYCmatHf6
+Thanks for radmanplays for posting this info on the eaglercraft subreddit
