@@ -25,7 +25,7 @@ Vanilla Clients Include:
 
 Thanks to:
 * Robert Dixon for his HTML Link Page Template (https://github.com/robsd/html-link-page/tree/main)
-* TechGeekUnited for Archiving the client files (https://github.com/TechGeekUnited/TGU-Archive)
+* TechGeekUnited for Archiving most modified client files (https://github.com/TechGeekUnited/TGU-Archive)
 * EaglerCrackX Archive for the server list (https://eaglercrack.vercel.app/)
 * PeytonPlayz595 for Minecraft Indev WebGL (https://github.com/PeytonPlayz595/Minecraft-Indev-WebGL/tree/main)
 * radmanplays for releasing EaglerForge Build v1.2.5 (https://github.com/eaglerforge/EaglerForge-builds/releases/tag/v1.2.5)
