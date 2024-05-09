@@ -35,3 +35,5 @@ I will most likely not update the clients themselfs unless the clients stop work
 Also, for EaglerForge specifically, the discord to find mods for it is here: https://discord.gg/zCYCmatHf6
 
 Thanks for radmanplays for posting this info on the eaglercraft subreddit
+
+Update (5-8-24): I just realized eaglercrack.vercel.app is now dead. rip :(
