@@ -4,6 +4,10 @@ https://burnedpopcorn.github.io/Client_Select.html
 
 A website that hosts and provides many vanilla and modified EaglerCraft Clients with a clean UI, and a 1.8 server list
 
+## Update (6/15/24)
+Yeah, I don't really care about this project anymore, so I will not be updating this ever. You are still welcome to fork and edit this launcher, and I would appreciate crediting me, thanks
+
+## What's Inside?
 Modified Clients Included:
 
 * Pi Client
@@ -30,10 +34,8 @@ Thanks to:
 * PeytonPlayz595 for Minecraft Indev WebGL (https://github.com/PeytonPlayz595/Minecraft-Indev-WebGL/tree/main)
 * radmanplays for releasing EaglerForge Build v1.2.5 (https://github.com/eaglerforge/EaglerForge-builds/releases/tag/v1.2.5)
 
-I will most likely not update the clients themselfs unless the clients stop working
+For EaglerForge specifically, the discord to find mods for it is here: https://discord.gg/zCYCmatHf6
 
-Also, for EaglerForge specifically, the discord to find mods for it is here: https://discord.gg/zCYCmatHf6
+Thanks for radmanplays for posting the discord info on the eaglercraft subreddit
 
-Thanks for radmanplays for posting this info on the eaglercraft subreddit
-
-Update (5-8-24): I just realized eaglercrack.vercel.app is now dead. rip :(
+Update (5-8-24): I just realized eaglercrack.vercel.app is now dead. rip to a real one :(
