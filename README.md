@@ -1,1 +1,1 @@
-[Link text Here](./Client_Select.html)
+[Click here to open launcer](./Client_Select.html)
