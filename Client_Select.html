@@ -1,32 +1,236 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-		<title>Modified EaglerCraft Clients</title>
-	</head>
-	<body>
-		<div class="container text-center my-5">
-			<img class="img-fluid rounded-circle mb-5" src="images/minecraft.png" width="150" alt="Your Name">
-			<h1 class="mb-5">Modified EaglerCraft Clients</h1>
-			<div class="col-md-6 mx-auto d-grid gap-2 mb-5">
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/PiClient-v1 (1).1-20230123-intl.html"></i> Pi Client</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/OddFuture_Client.html"><i> </i> OddFuture Client</a>
-                		<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/Nebula.html"><i> </i> Nebula</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/NitClient.html"><i> </i> NitClient</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/DragonX_V2_International.html"><i></i> DragonX V2</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/N0VA_CLIENT.html"><i></i> N0VA Client</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/Kerosene_Client.html"><i></i> Kerosene Client</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/Solar_3.5.html"><i></i> Solar Client </a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/precisionclient-beta_0.1.8.4+minimal.html"><i></i> Precision Client</a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/servers.html"><i></i> Server List for EaglerCraft 1.8 </a>
-				<a class="btn btn-primary" href="https://weblabsaus.github.io/eagle/Vanilla_Client_Select.html"><i></i> Vanilla Clients </a>
-			</div>
-            <p>     Launcher by WeblabsAus and BurnedPopcorn
-		    <h1>Go to @weblabsaus on Github for more</h1>
-			
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+        <title>Modified EaglerCraft Clients</title>
+        <style>
+            body {
+                background: linear-gradient(135deg, #1f2937, #4b5563);
+                color: #ffffff;
+                font-family: "Poppins", sans-serif;
+                overflow: hidden;
+            }
+            .launcher-container {
+                background-color: rgba(43, 43, 43, 0.9);
+                border-radius: 15px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+                padding: 30px;
+                max-width: 800px;
+                margin: auto;
+                animation: fadeIn 0.5s ease;
+            }
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .logo {
+                width: 120px;
+                margin-bottom: 20px;
+                animation: bounce 1.5s infinite;
+            }
+            @keyframes bounce {
+                0%,
+                20%,
+                50%,
+                80%,
+                100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-10px);
+                }
+                60% {
+                    transform: translateY(-5px);
+                }
+            }
+            .tiles {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+                margin-top: 20px;
+            }
+            .tile {
+                background-color: #333;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+                transition:
+                    transform 0.3s,
+                    background-color 0.3s;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            }
+            .tile:hover {
+                transform: translateY(-5px);
+                background-color: #444;
+            }
+            .tile i {
+                font-size: 2em;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+            .tile h5 {
+                color: #ffffff;
+            }
+            .footer {
+                margin-top: 30px;
+                font-size: 0.9em;
+                color: #aaa;
+            }
+            .section-title {
+                font-size: 1.5em;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                border-bottom: 2px solid #444;
+                padding-bottom: 5px;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            }
+            .btn-non-tile {
+                margin-top: 20px;
+                display: block;
+                text-align: center;
+                padding: 15px;
+                background-color: #007bff;
+                color: white;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+            .btn-non-tile:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container text-center my-5">
+            <div class="launcher-container">
+                <img
+                    class="logo"
+                    src="images/minecraft.png"
+                    alt="Minecraft Logo"
+                />
+                <h1 class="mb-4">Modified EaglerCraft Clients</h1>
+
+                <div class="section-title">Available Clients</div>
+                <div class="tiles">
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/PiClient-v1 (1).1-20230123-intl.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>Pi Client</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/OddFuture_Client.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>OddFuture Client</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/Nebula.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>Nebula</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/NitClient.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>NitClient</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/DragonX_V2_International.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>DragonX V2</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/N0VA_CLIENT.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>N0VA Client</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/Kerosene_Client.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>Kerosene Client</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/Solar_3.5.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>Solar Client</h5>
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a
+                            class="btn btn-link text-light"
+                            href="https://weblabsaus.github.io/eagle/precisionclient-beta_0.1.8.4+minimal.html"
+                        >
+                            <i class="fas fa-gamepad"></i>
+                            <h5>Precision Client</h5>
+                        </a>
+                    </div>
+                </div>
+
+                <a
+                    class="btn-non-tile"
+                    href="https://weblabsaus.github.io/eagle/Vanilla_Client_Select.html"
+                >
+                    Vanilla Clients
+                </a>
+                <a
+                    class="btn-non-tile"
+                    href="https://weblabsaus.github.io/eagle/servers.html"
+                >
+                    Server List for EaglerCraft 1.8
+                </a>
+
+                <p class="footer">Launcher by WeblabsAus and BurnedPopcorn</p>
+                <h5 class="footer">
+                    Go to
+                    <a href="https://github.com/weblabsaus" class="text-primary"
+                        >@weblabsaus</a
+                    >
+                    on Github for more
+                </h5>
+            </div>
         </div>
-	</body>
+    </body>
 </html>
